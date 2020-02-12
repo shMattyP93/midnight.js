@@ -1,0 +1,28 @@
+/* =============
+    Typography
+============= */
+h1,h2,h3,h4,h5,p{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+  font-family: basic-sans, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: rem-calc(68);
+}
+
+h2{
+  font-family: basic-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: rem-calc(38);
+}
+
+p{
+    font-family: basic-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: rem-calc(28);
+}

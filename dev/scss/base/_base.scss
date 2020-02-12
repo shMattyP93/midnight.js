@@ -1,0 +1,52 @@
+/* =============
+    Base
+============= */
+figure{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    li{
+        list-style: none;
+    }
+}
+
+.section-container{
+  height: 400px;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-container-big{
+  height: 800px;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+// header styles
+
+.black-header{
+  background-color: $black;
+  color: $white;
+}
+
+.green-header{
+  background-color: $green;
+  color: $black;
+}
+
+.blue-header{
+  background-color: $blue;
+  color: $white;
+}

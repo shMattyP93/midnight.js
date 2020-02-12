@@ -1,0 +1,66 @@
+header{
+  height: 75px;
+  background-color: $white;
+  width: 100vw;
+  position: fixed;
+  text-align: center;
+}
+
+#hero{
+  .hero-container{
+    background-image: url("../img/Bitmap.jpg");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1{
+      color: $white;
+      text-align: center;
+    }
+  }
+}
+
+#section-one{
+  .section-container{
+    background-color: $purp;
+    p{
+      span{
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+#section-two{
+  .section-container{
+    background-color: $blue;
+    p{
+      color: $white;
+      span{
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+#section-three{
+  .section-container{
+    background-color: $green;
+    p{
+      color: $black;
+      span{
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+#section-four{
+  .section-container-big{
+    background-color: $black;
+    h1{
+      color: $white;
+    }
+  }
+}
